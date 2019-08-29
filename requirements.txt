@@ -1,0 +1,6 @@
+Django==2.1.7
+django-guardian==2.0.0
+mysql-connector-python==8.0.16
+Pillow==5.4.1
+sqlparse==0.3.0
+Werkzeug==0.15.2
