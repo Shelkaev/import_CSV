@@ -24,7 +24,7 @@ def upload_file(request):
 	io_string = io.StringIO(data_set) 
 	next(io_string)
 	for colum in csv.reader(io_string, delimiter = ';'):
-			created = Good.objects.update_or_create(
+			Good.objects.update_or_create(
 			code = colum[0],
 			name = colum[1],
 			level_1 = colum[2],
